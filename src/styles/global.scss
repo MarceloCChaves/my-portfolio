@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background: #202020;
+  --green: #41B883;
+  --white: #fff;
+  --black: #181818;
+  --purple: #a41bdb;
+  --scroll: #6164FF;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll);
+  border-radius: 10px;
+}

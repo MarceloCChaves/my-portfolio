@@ -1,0 +1,33 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  background: var(--purple);
+
+  .project {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  hr{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  a{
+    color: var(--white);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+}
