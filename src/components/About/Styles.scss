@@ -8,7 +8,7 @@
    :where(h1, p){
     color: var(--white);
     font-weight: 700;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
   img {
@@ -24,5 +24,25 @@
   .info {
     width: 500px;
     max-width: 90%;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      color: var(--white);
+      font-size: 24px;
+      margin-top: 20px;
+    }
+
+    :where(.mail, .phone){
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      a{
+        color: var(--white);
+        text-decoration: none;
+      }
+    }
   }
 }

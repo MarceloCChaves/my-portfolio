@@ -3,7 +3,6 @@ import {
   FaLinkedin,
   FaGithub,
   FaInstagram,
-  FaEnvelope,
 } from "react-icons/fa";
 import PlayerModel from "../../assets/PlayerModel.png"
 
@@ -36,11 +35,6 @@ export default function Bio() {
               target="_blank"
             >
               <FaInstagram color="#fff" size={20} />
-            </a>
-          </div>
-          <div className="box">
-            <a href="mailto:Marcelochaves20000@gmail.com">
-              <FaEnvelope color="#fff" size={20} />
             </a>
           </div>
         </div>

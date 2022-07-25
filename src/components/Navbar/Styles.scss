@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--black);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  li {
+    list-style-type: none;
+    margin: 20px;
+    color: var(--white);
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 767px){
+    .navbar{
+      display: none;
+    }
+}
