@@ -1,14 +1,7 @@
 import "./Styles.scss";
 import Card from "../Card/Index"
 
-type CardProject = {
-  name: string,
-  description: string,
-  photo: string;
-  link: string,
-}
-
-export default function Projects(props: CardProject) {
+export default function Projects() {
   const projects = [
     {
       name: "Abrazza Animes",
