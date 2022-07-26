@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: var(--background);
+  padding: 30px;
+
+  span {
+    color: var(--white);
+    margin-right: 5px;
+  }
+}

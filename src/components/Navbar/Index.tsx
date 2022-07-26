@@ -9,34 +9,34 @@ export default function Navbar() {
 
   const scrollToAbout = () => {
     window.scrollTo({
-      top: 530,
+      top: 300,
       behavior: "smooth",
     });
   }
   const scrollToProjects = () => {
     window.scrollTo({
-      top: 1000,
+      top: 750,
       behavior: "smooth",
     });
   }
   const scrollToTechnologies = () => {
     window.scrollTo({
-      top: 2300,
+      top: 2050,
       behavior: "smooth",
     });
   }
-  // const scrollToAbout = () => {
-  //   window.scrollTo({
-  //     top: 530,
-  //     behavior: "smooth",
-  //   });
-  // }
+  const scrollToExp = () => {
+    window.scrollTo({
+      top: 3000,
+      behavior: "smooth",
+    });
+  }
   return (
     <ul className="navbar">
       <li onClick={scrollToAbout} ref={about}>Sobre</li>
       <li onClick={scrollToProjects} ref={projects}>Projetos</li>
-      {/* <li onClick={() => scrollToSection(xp)} ref={xp}>Experiências</li> */}
       <li onClick={scrollToTechnologies} ref={tecnologies}>Tecnologias</li>
+      <li onClick={scrollToExp} ref={xp}>Experiências</li>
     </ul>
   );
 }

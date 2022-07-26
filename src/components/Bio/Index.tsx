@@ -9,12 +9,14 @@ import PlayerModel from "../../assets/PlayerModel.png"
 export default function Bio() {
   return (
     <header className="Bio">
-      <div>
-        <img src={PlayerModel} alt="Marcelo" />
-      </div>
       <div className="box">
-        <h1>Marcelo Chaves</h1>
-        <p>Desenvolvedor Web</p>
+        <div className="principal">
+          <img src={PlayerModel} alt="Marcelo" />
+          <div>
+            <h1>Marcelo Chaves</h1>
+            <p>Desenvolvedor Web</p>
+          </div>
+        </div>
         <div className="social">
           <div className="box">
             <a

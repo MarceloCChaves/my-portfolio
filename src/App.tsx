@@ -1,5 +1,7 @@
 import About from "./components/About/Index"
 import Bio from "./components/Bio/Index"
+import Experiences from "./components/Experiences/Index"
+import Footer from "./components/Footer/Index"
 import Navbar from "./components/Navbar/Index"
 import Projects from "./components/Projects/Index"
 import Scroll from "./components/Scroll/Index"
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Projects />
       <Technologies />
+      <Experiences />
+      <Footer />
     </div>
   )
 }

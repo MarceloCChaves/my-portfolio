@@ -1,5 +1,6 @@
 .About {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 30px;
@@ -14,7 +15,6 @@
   img {
     width: 300px;
     height: 300px;
-    border-radius: 100%;
   }
 
   h1 {

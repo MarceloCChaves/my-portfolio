@@ -4,7 +4,7 @@ import "./Styles.scss"
 export default function Technologies() {
   return (
     <div className="Technologies">
-      <h1>Habilidades e competências</h1>
+      <h1>Habilidades</h1>
       <hr />
       <div className="box">
           <div className="box-1">
@@ -52,7 +52,7 @@ export default function Technologies() {
             </div>
             <div className="technology">
               <FaTrello color="#fff" size={50} />
-              <span>Frameworks ágeis</span>
+              <span>Trello</span>
             </div>
             <div className="technology">
               <FaFlagUsa color="#fff" size={50} />
