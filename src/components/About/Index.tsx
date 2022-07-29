@@ -11,9 +11,9 @@ export default function About() {
         <hr />
         <p>
           Meu nome é Marcelo Calandrini Chaves, tenho 21 anos, moro em Belém-PA,
-          atualmente sou desenvolvedor web com experiência em frontend,
-          construíndo interfaces de alta qualidade e também possuo conhecimentos
-          básicos de backend.
+          atualmente sou desenvolvedor web com experiência em frontend, meu foco
+          é principalmente o layout visual, interface e experiência do usuário,
+          além disso, também possuo conhecimentos básicos de backend.
         </p>
         <hr />
         <div className="contacts">

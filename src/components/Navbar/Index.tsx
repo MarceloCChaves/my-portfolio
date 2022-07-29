@@ -9,25 +9,25 @@ export default function Navbar() {
 
   const scrollToAbout = () => {
     window.scrollTo({
-      top: 300,
+      top: 700,
       behavior: "smooth",
     });
   }
   const scrollToProjects = () => {
     window.scrollTo({
-      top: 750,
+      top: 1150,
       behavior: "smooth",
     });
   }
   const scrollToTechnologies = () => {
     window.scrollTo({
-      top: 2050,
+      top: 2450,
       behavior: "smooth",
     });
   }
   const scrollToExp = () => {
     window.scrollTo({
-      top: 3000,
+      top: 3400,
       behavior: "smooth",
     });
   }
