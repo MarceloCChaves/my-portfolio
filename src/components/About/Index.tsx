@@ -1,11 +1,11 @@
 import "./Styles.scss";
-import Me from "../../assets/Foto.png";
+import AboutImage from "../../assets/About.svg";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function About() {
   return (
     <div className="About">
-      <img src={Me} alt="Marcelo" />
+      <img src={AboutImage} alt="Marcelo" />
       <div className="info">
         <h1>Sobre</h1>
         <hr />

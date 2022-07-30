@@ -4,7 +4,7 @@ import {
   FaGithub,
   FaInstagram,
 } from "react-icons/fa";
-import PlayerModel from "../../assets/PlayerModel.png"
+import Eu from "../../assets/Eu.png"
 import Programing from "../../assets/programming.svg"
 import TypeAnimation from "react-type-animation"
 
@@ -13,7 +13,7 @@ export default function Bio() {
     <header className="Bio">
       <div className="box">
         <div className="principal">
-          <img src={PlayerModel} alt="Marcelo" />
+          <img src={Eu} alt="Marcelo" />
           <div className="names">
             <TypeAnimation
               cursor={false}
