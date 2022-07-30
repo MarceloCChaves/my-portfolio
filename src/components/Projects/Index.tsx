@@ -16,10 +16,10 @@ export default function Projects() {
       link: "https://github.com/MarceloCChaves/Museu-Valorant"
     },
     {
-      name: "For.um",
-      photo: "https://camo.githubusercontent.com/121aff785801ca3c4d07b26df29af4aa58673d46e44dd09e72a703be3a94b3a4/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3735373638333039393433373130353237382f3939303330383136383031313736333733332f756e6b6e6f776e2e706e67",
-      description: "For.um é uma aplicação onde seus usuários podem compartilhar suas ideias por meio de um post de 140 caracteres.",
-      link: "https://github.com/MarceloCChaves/For.um"
+      name: "Sports Online",
+      photo: "https://cdn.discordapp.com/attachments/757683099437105278/1002733688544579746/unknown.png",
+      description: "Sports online é um serviço para visualizar os melhores momentos de partidas de futebol diariamente.",
+      link: "https://github.com/MarceloCChaves/Sports-Online"
     },
     {
       name: "Pokedex",
