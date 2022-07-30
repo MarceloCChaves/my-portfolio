@@ -12,7 +12,7 @@ export default function Experiences() {
           <div className="job">
             <h1>eumostro</h1>
             <p>Estágio</p>
-            <p>1 ano</p>
+            <p>Maio 2021 - Maio 2022</p>
           </div>
         </div>
         <div className="description">

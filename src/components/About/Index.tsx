@@ -1,5 +1,5 @@
 import "./Styles.scss";
-import Me from "../../assets/Foto2.png";
+import Me from "../../assets/Foto.png";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function About() {

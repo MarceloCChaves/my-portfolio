@@ -35,7 +35,7 @@ export default function Navbar() {
     <ul className="navbar">
       <li onClick={scrollToAbout} ref={about}>Sobre</li>
       <li onClick={scrollToProjects} ref={projects}>Projetos</li>
-      <li onClick={scrollToTechnologies} ref={tecnologies}>Tecnologias</li>
+      <li onClick={scrollToTechnologies} ref={tecnologies}>Habilidades</li>
       <li onClick={scrollToExp} ref={xp}>Experiências</li>
     </ul>
   );

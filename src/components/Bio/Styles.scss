@@ -1,4 +1,7 @@
 .Bio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 200px;
   height: 100vh;
   margin-top: 30px;
@@ -46,6 +49,13 @@
     padding: 0 0 10px;
     border-radius: 8px;
   }
+
+  .programming {
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
 }
 
 @media(max-width: 767px){
@@ -62,6 +72,14 @@
     }
     .social {
       margin: 20px auto;
+    }
+  }
+}
+
+@media(max-width: 1080px){
+  .programming {
+    img {
+      display: none;
     }
   }
 }

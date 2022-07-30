@@ -5,6 +5,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import PlayerModel from "../../assets/PlayerModel.png"
+import Programing from "../../assets/programming.svg"
 import TypeAnimation from "react-type-animation"
 
 export default function Bio() {
@@ -21,7 +22,7 @@ export default function Bio() {
               repeat={1}
             />
             <TypeAnimation
-              cursor={true}
+              cursor={false}
               sequence={['', 2000, 'Desenvolvedor Web.']}
               wrapper="p"
               repeat={1}
@@ -51,6 +52,9 @@ export default function Bio() {
             </a>
           </div>
         </div>
+      </div>
+      <div className="programming">
+        <img src={Programing} alt="Proggramming" />
       </div>
     </header>
   );
