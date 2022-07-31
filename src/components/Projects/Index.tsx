@@ -18,7 +18,7 @@ export default function Projects() {
     {
       name: "Sports Online",
       photo: "https://cdn.discordapp.com/attachments/757683099437105278/1002733688544579746/unknown.png",
-      description: "Sports online é um serviço para visualizar os melhores momentos de partidas de futebol diariamente.",
+      description: "Sports online é um serviço para visualizar partidas ao vivo, melhores momentos e gols de partidas de futebol diárias.",
       link: "https://github.com/MarceloCChaves/Sports-Online"
     },
     {

@@ -6,10 +6,17 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
+
+  :hover{
+    background: var(--background);
+    border-radius: 8px;
+  }
 
   li {
     list-style-type: none;
     margin: 20px;
+    padding: 5px;
     color: var(--white);
     cursor: pointer;
   }
