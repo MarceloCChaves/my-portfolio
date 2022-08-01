@@ -6,37 +6,37 @@ export default function Navbar() {
   const projects = useRef(null);
   const xp = useRef(null);
   const tecnologies = useRef(null);
-
+  
   const scrollToAbout = () => {
     window.scrollTo({
       top: 700,
       behavior: "smooth",
     });
   }
-  const scrollToProjects = () => {
+  const scrollToExp = () => {
     window.scrollTo({
       top: 1150,
       behavior: "smooth",
     });
   }
-  const scrollToTechnologies = () => {
+  const scrollToProjects = () => {
     window.scrollTo({
-      top: 2450,
+      top: 1710,
       behavior: "smooth",
     });
   }
-  const scrollToExp = () => {
+  const scrollToTechnologies = () => {
     window.scrollTo({
-      top: 3400,
+      top: 3020,
       behavior: "smooth",
     });
   }
   return (
     <ul className="navbar">
       <li onClick={scrollToAbout} ref={about}>Sobre</li>
+      <li onClick={scrollToExp} ref={xp}>Experiências</li>
       <li onClick={scrollToProjects} ref={projects}>Projetos</li>
       <li onClick={scrollToTechnologies} ref={tecnologies}>Habilidades</li>
-      <li onClick={scrollToExp} ref={xp}>Experiências</li>
     </ul>
   );
 }
