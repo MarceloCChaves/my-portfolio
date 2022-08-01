@@ -16,9 +16,9 @@ function App() {
       <Bio />
       <Scroll />
       <About />
+      <Experiences />
       <Projects />
       <Technologies />
-      <Experiences />
       <Footer />
       <ToastContainer />
     </div>
