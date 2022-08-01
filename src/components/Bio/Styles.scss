@@ -1,4 +1,4 @@
-.Bio{
+.Bio {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,12 +16,6 @@
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-
-      .names{
-        h1{
-          font-size: 50px;
-        }
-      }
     }
 
     img {
@@ -29,13 +23,14 @@
       max-width: 100%;
       height: 200px;
       border-radius: 100%;
+      margin: 0 20px 0 0;
     }
-  
+
     :where(h1, p) {
       color: var(--white);
       font-weight: 700;
     }
-  
+
     h1 {
       font-size: 32px;
     }
@@ -58,16 +53,21 @@
   }
 }
 
-@media(max-width: 767px){
-  .Bio{
+@media (max-width: 767px) {
+  .Bio {
     margin: 0;
     padding: 30px;
 
-    .principal{
-      justify-content: center;
+    .box {
+      img {
+        margin: 0;
+      }
+      .principal {
+        justify-content: center;
 
-      .names {
-        text-align: center;
+        .names {
+          text-align: center;
+        }
       }
     }
     .social {
@@ -76,7 +76,7 @@
   }
 }
 
-@media(max-width: 1080px){
+@media (max-width: 1080px) {
   .programming {
     img {
       display: none;

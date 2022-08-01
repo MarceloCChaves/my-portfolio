@@ -25,6 +25,10 @@
   .info {
     width: 500px;
     max-width: 90%;
+
+    p {
+      text-align: justify;
+    }
   }
   .contacts {
     display: flex;

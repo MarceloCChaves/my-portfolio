@@ -1,9 +1,9 @@
-import "./Styles.scss";
 import { FaLinkedin, FaGithub, FaInstagram, FaDiscord } from "react-icons/fa";
+import { toast } from "react-toastify";
 import Eu from "../../assets/Eu.png";
 import Programing from "../../assets/programming.svg";
 import TypeAnimation from "react-type-animation";
-import { toast } from "react-toastify";
+import "./Styles.scss";
 import "react-toastify/dist/ReactToastify.css";
 
 const handleAlert = (text: any) => {
