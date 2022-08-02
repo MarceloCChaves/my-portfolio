@@ -1,23 +1,22 @@
 import "./Styles.scss";
 import AboutImage from "../../assets/About.svg";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <div className="About">
       <img src={AboutImage} alt="Marcelo" />
       <div className="info">
-        <h1>Sobre</h1>
+        <h1>{t('Sobre')}</h1>
         <hr />
         <p>
-          Meu nome é Marcelo Calandrini Chaves, tenho 21 anos, moro em Belém-PA,
-          atualmente sou desenvolvedor web com experiência em frontend, meu foco
-          é principalmente o layout visual, interface e experiência do usuário,
-          além disso, também possuo conhecimentos básicos de backend.
+          {t('Descricao')}
         </p>
         <hr />
         <div className="contacts">
-          <strong>Contatos</strong>
+          <strong>{t('Contatos')}</strong>
           <div className="mail">
             <FaEnvelope color="#fff" size={20} />
             <a href="mailto:Marcelochaves20000@gmail.com" target="_blank">

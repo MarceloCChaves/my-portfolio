@@ -1,7 +1,20 @@
 import "./Styles.scss";
 import { useRef } from "react";
+import BrazilFlag from "../../assets/Flag_of_Brazil.svg"
+import UsaFlag from "../../assets/Flag_of_the_United_States.svg"
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLanguage = (value: any) => {
+    i18n.changeLanguage(value)
+    .then(() => {
+      console.log("Linguagem alterada")
+    })
+    .catch((error) => {
+      console.log(error)
+    })
+  }
   const about = useRef(null);
   const projects = useRef(null);
   const xp = useRef(null);
@@ -33,10 +46,16 @@ export default function Navbar() {
   }
   return (
     <ul className="navbar">
-      <li onClick={scrollToAbout} ref={about}>Sobre</li>
-      <li onClick={scrollToExp} ref={xp}>Experiências</li>
-      <li onClick={scrollToProjects} ref={projects}>Projetos</li>
-      <li onClick={scrollToTechnologies} ref={tecnologies}>Habilidades</li>
+      <div className="items">
+        <li onClick={scrollToAbout} ref={about}>{t("Sobre")}</li>
+        <li onClick={scrollToExp} ref={xp}>{t("Experiencias")}</li>
+        <li onClick={scrollToProjects} ref={projects}>{t("Projetos")}</li>
+        <li onClick={scrollToTechnologies} ref={tecnologies}>{t("Habilidades")}</li>
+      </div>
+      <div className="flags">
+        <img src={BrazilFlag} alt="Brazil Flag" onClick={() => handleChangeLanguage('pt')} />
+        <img src={UsaFlag} alt="Usa Flag" onClick={() => handleChangeLanguage('en')} />
+      </div>
     </ul>
   );
 }

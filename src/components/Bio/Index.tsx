@@ -3,6 +3,8 @@ import { toast } from "react-toastify";
 import Eu from "../../assets/Eu.png";
 import Programing from "../../assets/programming.svg";
 import TypeAnimation from "react-type-animation";
+import "../../utils/i18n";
+import { useTranslation } from "react-i18next";
 import "./Styles.scss";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,6 +14,7 @@ const handleAlert = (text: any) => {
 };
 
 export default function Bio() {
+  const { t } = useTranslation();
   return (
     <header className="Bio">
       <div className="box">
@@ -24,12 +27,7 @@ export default function Bio() {
               wrapper="h1"
               repeat={1}
             />
-            <TypeAnimation
-              cursor={false}
-              sequence={["", 2000, "Desenvolvedor Web."]}
-              wrapper="p"
-              repeat={1}
-            />
+            <p>{t('Desenvolvedor Web')}</p>
           </div>
         </div>
         <div className="social">

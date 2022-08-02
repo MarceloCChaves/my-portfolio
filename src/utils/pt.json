@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "Sobre": "Sobre",
+    "Experiencias": "Experiências",
+    "Projetos": "Projetos",
+    "Habilidades": "Habilidades",
+    "Desenvolvedor Web": "Desenvolvedor web",
+    "Descricao": "Meu nome é Marcelo Calandrini Chaves, tenho 21 anos, moro em Belém-PA, atualmente sou desenvolvedor web com experiência em frontend, meu foco é principalmente o layout visual, interface e experiência do usuário, além disso, também possuo conhecimentos básicos de backend.",
+    "Contatos": "Contatos",
+    "Estagio": "Estágio",
+    "Maio": "Maio",
+    "DescricaoEmprego": "Atuei como estagiário de desenvolvimento web da plataforma eumostro. Desenvolvendo o sistema da plataforma, utilizando para frontend os frameworks Vue.js e Bootstrap e Nodejs e express para backend. Além disso, como metodologia ágil, foi utilizado SCRUM e o trello como plataforma de gerenciamento de projetos, também realizei o deploy de serviços em staging utilizando a plataforma AWS.",
+    "DescricaoAbbraza": "AbrazzaAnimes é uma plataforma utilizada para listar e exibir notícias sobre os animes que estão perto do lançamento oficial.",
+    "DescricaoValorant": "Museu valorant é uma aplicação feita para exibir as informações de agentes e mapas do jogo VALORANT.",
+    "DescricaoSports": "Sports online é um serviço para visualizar partidas ao vivo, melhores momentos e gols de partidas de futebol diárias.",
+    "DescricaoPokedex": "Projeto criado para consumir a api do pokeapi, exibindo as fotos do pokemon normal/shiny, o nome, o tipo e um botão de mais informações.",
+    "DescricaoCrud": "Um CRUD básico utilizando o serviço MOCKAPI para realizar as operações.",
+    "DescricaoStomp": "Site criado para a organização de e-sports Stomp Academy.",
+    "VisualizarRepositorio": "Visualizar repostório",
+    "Repositorios": "Visualizar mais repositórios",
+    "Ingles": "Inglês"
+  }
+}

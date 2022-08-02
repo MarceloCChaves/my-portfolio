@@ -1,10 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { FaBootstrap, FaCss3, FaFigma, FaFlagUsa, FaGit, FaGithub, FaHtml5, FaJs, FaNodeJs, FaReact, FaTrello, FaVuejs } from "react-icons/fa"
 import "./Styles.scss"
 
 export default function Technologies() {
+  const { t } = useTranslation();
   return (
     <div className="Technologies">
-      <h1>Habilidades</h1>
+      <h1>{t("Habilidades")}</h1>
       <hr />
       <div className="box">
           <div className="box-1">
@@ -56,7 +58,7 @@ export default function Technologies() {
             </div>
             <div className="technology">
               <FaFlagUsa color="#fff" size={50} />
-              <span>Inglês</span>
+              <span>{t("Ingles")}</span>
             </div>
           </div>
       </div>
