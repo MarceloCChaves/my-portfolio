@@ -41,7 +41,13 @@
 }
 
 @media (max-width: 767px) {
-  .navbar {
-    display: none;
+  .navbar{
+    position: static;
+    display: block;
+    .items {
+      li {
+        display: none;
+      }
+  }
   }
 }
