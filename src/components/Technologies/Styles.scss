@@ -1,29 +1,16 @@
 .Technologies {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background: var(--purple);
 
   h1{
     color: var(--white);
     font-weight: 700;
-    margin: 20px 0;
     font-size: 60px;
   }
 
-  hr{
-    width: 500px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    .box-1, .box-2 {
+  .boxes {
+    .box{
       display: flex;
-      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
 
       .technology {
         display: flex;
@@ -32,7 +19,7 @@
         span {
           font-size: 32px;
           color: var(--white);
-          margin: 50px;
+          margin: 20px;
         }
       }
     }

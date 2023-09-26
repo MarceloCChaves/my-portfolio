@@ -5,7 +5,6 @@ import Footer from "./components/Footer/Index"
 import Navbar from "./components/Navbar/Index"
 import Projects from "./components/Projects/Index"
 import Scroll from "./components/Scroll/Index"
-import Technologies from "./components/Technologies/Index"
 import { ToastContainer } from 'react-toastify';
 import "animate.css/animate.min.css";
 
@@ -18,7 +17,6 @@ function App() {
       <About />
       <Experiences />
       <Projects />
-      <Technologies />
       <Footer />
       <ToastContainer />
     </div>

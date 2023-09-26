@@ -1,5 +1,4 @@
-import { FaLinkedin, FaGithub, FaInstagram, FaDiscord } from "react-icons/fa";
-import { toast } from "react-toastify";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import Eu from "../../assets/Eu.png";
 import Programing from "../../assets/programming.svg";
 import TypeAnimation from "react-type-animation";
@@ -7,11 +6,6 @@ import "../../utils/i18n";
 import { useTranslation } from "react-i18next";
 import "./Styles.scss";
 import "react-toastify/dist/ReactToastify.css";
-
-const handleAlert = (text: any) => {
-  navigator.clipboard.writeText(text);
-  toast.success("Copiado para área de transferência");
-};
 
 export default function Bio() {
   const { t } = useTranslation();
@@ -27,7 +21,13 @@ export default function Bio() {
               wrapper="h1"
               repeat={1}
             />
-            <p>{t('Desenvolvedor Web')}</p>
+            <TypeAnimation
+              cursor={false}
+              sequence={[`${t('Desenvolvedor Web')}`, 1000]}
+              wrapper="p"
+              repeat={1}
+            />
+            <p></p>
           </div>
         </div>
         <div className="social">
@@ -50,26 +50,14 @@ export default function Bio() {
             </a>
           </div>
           <div className="box">
-            <a
-              href="https://www.instagram.com/marcelocchaves_/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram color="#fff" size={20} />
+            <a href="mailto:Marcelochaves20000@gmail.com" target="_blank">
+              <FaEnvelope color="#fff" size={20} />
             </a>
-          </div>
-          <div className="box">
-            <FaDiscord
-              color="#fff"
-              size={20}
-              onClick={() => handleAlert("Marcelo Chaves#4191")}
-              style={{ cursor: "pointer"}}
-            />
           </div>
         </div>
       </div>
       <div className="programming">
-        <img src={Programing} alt="Proggramming" />
+        <img src={Programing} alt="Programing" />
       </div>
     </header>
   );

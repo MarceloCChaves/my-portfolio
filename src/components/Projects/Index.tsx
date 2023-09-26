@@ -6,16 +6,16 @@ export default function Projects() {
   const { t } = useTranslation();
   const projects = [
     {
-      name: "Abrazza Animes",
-      photo: "https://camo.githubusercontent.com/d174805d3bfcde6d6751f8a56f22a15c38da5653d4412eed4b005dd91fc1b2eb/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3735373638333039393433373130353237382f3937313537373632393738383439313739362f756e6b6e6f776e2e706e67",
+      name: "Hacker News clone",
+      photo: "https://user-images.githubusercontent.com/62251064/188039971-7903481f-d647-4502-8c9c-232b96fc2a81.png",
       description: `${t("DescricaoAbbraza")}`,
-      link: "https://github.com/MarceloCChaves/AbrazzaAnimes"
+      link: "https://github.com/MarceloCChaves/Hacker-News-clone"
     },
     {
-      name: "Museu valorant",
-      photo: "https://cdn.discordapp.com/attachments/757683099437105278/1000884230638817290/unknown.png",
+      name: "Blog crud app",
+      photo: "https://user-images.githubusercontent.com/62251064/244049506-6209b97c-0a65-4613-bc62-80269bd686a8.png",
       description: `${t("DescricaoValorant")}`,
-      link: "https://github.com/MarceloCChaves/Museu-Valorant"
+      link: "https://github.com/MarceloCChaves/Blog-crud-app"
     },
     {
       name: "Sports Online",
@@ -30,10 +30,10 @@ export default function Projects() {
       link: "https://github.com/MarceloCChaves/Pokedex"
     },
     {
-      name: "Estoque de produtos",
-      photo: "https://cdn.discordapp.com/attachments/757683099437105278/1000886954507902986/unknown.png",
+      name: "jordan Shoes",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/Jordan-Shoes/master/img/background.png",
       description: `${t("DescricaoCrud")}`,
-      link: "https://github.com/MarceloCChaves/Reactjs-Crud"
+      link: "https://github.com/MarceloCChaves/Jordan-Shoes"
     },
     {
       name: "Stomp Academy",
