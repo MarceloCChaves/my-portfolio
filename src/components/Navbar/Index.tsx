@@ -35,8 +35,8 @@ export default function Navbar() {
     <ul className="navbar">
       <div className="items">
         <li onClick={() => scrollTo(700)} ref={about}>{t("Sobre")}</li>
-        <li onClick={() => scrollTo(1700)} ref={xp}>{t("Experiencias")}</li>
-        <li onClick={() => scrollTo(2300)} ref={projects}>{t("Projetos")}</li>
+        <li onClick={() => scrollTo(1650)} ref={xp}>{t("Experiencias")}</li>
+        <li onClick={() => scrollTo(2600)} ref={projects}>{t("Projetos")}</li>
       </div>
       <div className="flags">
         <img src={BrazilFlag} alt="Brazil Flag" onClick={() => handleChangeLanguage('pt')} />
