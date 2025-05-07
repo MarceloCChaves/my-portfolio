@@ -1,36 +1,40 @@
 import "./Styles.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <main className="contact-container">
       <section className="contact-content">
-        <h2>Entre em Contato</h2>
+        <h2>{t("contact.title")}</h2>
         <form
-          action="https://formsubmit.co/Marcelochavesdev@gmail.com"
+          action="https://formsubmit.co/seuemail@dominio.com"
           method="POST"
         >
           <input
             type="text"
             name="name"
-            placeholder="Seu nome"
+            placeholder={t("contact.namePlaceholder")}
             required
           />
           <input
             type="email"
             name="email"
-            placeholder="Seu e-mail"
+            placeholder={t("contact.emailPlaceholder")}
             required
           />
           <textarea
             name="message"
-            placeholder="Sua mensagem"
+            placeholder={t("contact.messagePlaceholder")}
             required
           />
 
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="Nova mensagem!"/>
+          <input type="hidden" name="_template" value="box" />
+          <input type="hidden" name="_next" value="https://seusite.com/obrigado" />
 
-          <button type="submit">Enviar</button>
+          <button type="submit">{t("contact.button")}</button>
         </form>
       </section>
     </main>

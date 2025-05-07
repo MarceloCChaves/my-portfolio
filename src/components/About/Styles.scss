@@ -23,7 +23,39 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 700px;
+    max-width: 700px;
     text-align: justify;
   }
+
+  .skills {
+    margin-top: 40px;
+  
+    h2, h3 {
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+  
+    .skills-category {
+      margin-bottom: 20px;
+  
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-left: 0;
+  
+        li {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: var(--white);
+          background: var(--blue);
+          padding: 8px 12px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  
 }

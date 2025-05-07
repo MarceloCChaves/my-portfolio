@@ -7,6 +7,11 @@
     "Habilidades": "Skills",
     "Desenvolvedor Web": "Web developer | Web Designer",
     "Descricao": "Hi! My name is Marcelo Calandrini Chaves, I'm 24 years old and I hold a degree in Computer Science from CESUPA. I currently live in Belém, Pará, and work as a fullstack developer with experience in both front-end and back-end development. I'm passionate about technology and constantly seeking new challenges that allow me to grow professionally, apply my knowledge in practical ways, and build innovative solutions. My goal is to actively contribute to projects that create real impact, combining performance, usability, and scalability.",
+    "Habilidades Técnicas": "Technical Skills",
+    "Linguagens": "Languages",
+    "Banco de Dados": "Databases",
+    "Ferramentas": "Tools",
+    "Design": "Design",
     "Contatos": "Contacts",
     "Estagio": "Internship",
     "tempoIntegral": "Full time",
@@ -28,6 +33,13 @@
     "DescricaoLivraria": "Library Manager is an intuitive application for creating and managing books. It allows users to add, edit, categorize, and track the status of books, with search functionalities and customizable filters, providing an efficient experience for administrators and readers.",
     "VisualizarRepositorio": "View repository",
     "Repositorios": "View more repositories",
-    "Ingles": "English"
+    "Ingles": "English",
+    "contact": {
+      "title": "Get in Touch",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "button": "Send"
+    }
   }
 }
