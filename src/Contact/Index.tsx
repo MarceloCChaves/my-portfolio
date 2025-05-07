@@ -48,13 +48,13 @@ export default function Contact() {
           <p>
             <FaLinkedin />{" "}
             <a href="https://www.linkedin.com/in/marcelocchaves/" target="_blank" rel="noopener noreferrer">
-              linkedin.com/in/seuusuario
+              linkedin.com/in/marcelocchaves
             </a>
           </p>
           <p>
             <FaGithub />{" "}
             <a href="https://github.com/MarceloCChaves" target="_blank" rel="noopener noreferrer">
-              github.com/seuusuario
+              github.com/MarceloCChaves
             </a>
           </p>
         </div>
