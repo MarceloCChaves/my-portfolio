@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.13.5",
     "@react-three/drei": "^9.17.3",
     "@react-three/fiber": "^8.2.1",
     "@types/react-type-animation": "^1.1.1",

@@ -1,28 +1,29 @@
 .About {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 30px;
   background: var(--background);
+  flex-wrap: wrap;
 
-   :where(h1, p){
+  :where(h1, p) {
     color: var(--white);
     font-weight: 700;
     margin: 20px 0;
   }
 
-  h1 {
-    font-size: 60px;
-    text-align: center;
+  .programing {
+    img {
+      width: 500px;
+      max-width: 100%;
+      height: 500px;
+    }
   }
 
-  .info {
-    width: 500px;
-    max-width: 100%;
-    .header-content {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      text-align: justify;
-    }
+  .header-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    text-align: justify;
   }
 }

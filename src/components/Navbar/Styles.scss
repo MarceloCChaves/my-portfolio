@@ -25,6 +25,17 @@
       cursor: pointer;
       margin-left: 20px;
     }
+
+    .box {
+      margin: 0 25px 0;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+  
+      .principal {
+        text-align: center;
+      }
+    }
   }
 
   .flags {

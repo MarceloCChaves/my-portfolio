@@ -6,40 +6,40 @@ export default function Projects() {
   const { t } = useTranslation();
   const projects = [
     {
+      name: "React Shop",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/React-Shop/refs/heads/master/src/assets/preview.png",
+      description: `${t("DescricaoReactShop")}`,
+      link: "https://github.com/MarceloCChaves/React-Shop"
+    },
+    {
+      name: "Shoe Style Hub",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/ShoeStyleHub/refs/heads/master/src/assets/readmeImage.png",
+      description: `${t("DescricaoShoe")}`,
+      link: "https://github.com/MarceloCChaves/ShoeStyleHub"
+    },
+    {
+      name: "Capputeeno",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/Capputeeno/refs/heads/master/Frontend/public/Menu.png",
+      description: `${t("DescricaoCaputeeno")}`,
+      link: "https://github.com/MarceloCChaves/Capputeeno"
+    },
+    {
       name: "Hacker News clone",
       photo: "https://user-images.githubusercontent.com/62251064/188039971-7903481f-d647-4502-8c9c-232b96fc2a81.png",
-      description: `${t("DescricaoAbbraza")}`,
+      description: `${t("DescricaoNews")}`,
       link: "https://github.com/MarceloCChaves/Hacker-News-clone"
     },
     {
-      name: "Blog crud app",
-      photo: "https://user-images.githubusercontent.com/62251064/244049506-6209b97c-0a65-4613-bc62-80269bd686a8.png",
-      description: `${t("DescricaoValorant")}`,
-      link: "https://github.com/MarceloCChaves/Blog-crud-app"
+      name: "Library Management",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/Library-Management/refs/heads/master/src/assets/Homescreen.png",
+      description: `${t("DescricaoLivraria")}`,
+      link: "https://github.com/MarceloCChaves/Library-Management"
     },
     {
-      name: "Sports Online",
-      photo: "https://cdn.discordapp.com/attachments/757683099437105278/1002733688544579746/unknown.png",
-      description: `${t("DescricaoSports")}`,
-      link: "https://github.com/MarceloCChaves/Sports-Online"
-    },
-    {
-      name: "Pokedex",
-      photo: "https://raw.githubusercontent.com/MarceloCChaves/Pokedex/master/assets/images/githubBackground.png",
-      description: `${t("DescricaoPokedex")}`,
-      link: "https://github.com/MarceloCChaves/Pokedex"
-    },
-    {
-      name: "jordan Shoes",
-      photo: "https://raw.githubusercontent.com/MarceloCChaves/Jordan-Shoes/master/img/background.png",
-      description: `${t("DescricaoCrud")}`,
+      name: "Jordan Shoes",
+      photo: "https://raw.githubusercontent.com/MarceloCChaves/Jordan-Shoes/refs/heads/master/img/background.png",
+      description: `${t("DescricaoJordan")}`,
       link: "https://github.com/MarceloCChaves/Jordan-Shoes"
-    },
-    {
-      name: "Stomp Academy",
-      photo: "https://cdn.discordapp.com/attachments/757683099437105278/1000887638053617735/unknown.png",
-      description: `${t("DescricaoStomp")}`,
-      link: "https://github.com/MarceloCChaves/Stomp-Academy"
     }
   ]
   return (
