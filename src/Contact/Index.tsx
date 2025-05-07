@@ -1,5 +1,6 @@
 import "./Styles.scss";
 import { useTranslation } from "react-i18next";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -36,6 +37,27 @@ export default function Contact() {
 
           <button type="submit">{t("contact.button")}</button>
         </form>
+      </section>
+
+      <section className="contact-content">
+        <h2>{t("contact.infoTitle")}</h2>
+        <div className="contact-info">
+          <p><FaEnvelope /> marcelochavesdev@gmail.com</p>
+          <p><FaPhoneAlt /> (91) 99272-7732</p>
+          <p><FaMapMarkerAlt /> Belém - PA</p>
+          <p>
+            <FaLinkedin />{" "}
+            <a href="https://www.linkedin.com/in/marcelocchaves/" target="_blank" rel="noopener noreferrer">
+              linkedin.com/in/seuusuario
+            </a>
+          </p>
+          <p>
+            <FaGithub />{" "}
+            <a href="https://github.com/MarceloCChaves" target="_blank" rel="noopener noreferrer">
+              github.com/seuusuario
+            </a>
+          </p>
+        </div>
       </section>
     </main>
   );

@@ -38,7 +38,8 @@
       "namePlaceholder": "Seu nome",
       "emailPlaceholder": "Seu e-mail",
       "messagePlaceholder": "Sua mensagem",
-      "button": "Enviar"
+      "button": "Enviar",
+      "infoTitle": "Minhas informações"
     }
   }
 }

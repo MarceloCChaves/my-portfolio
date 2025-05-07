@@ -1,9 +1,14 @@
 .contact-container {
   background: var(--blue);
   padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 8px;
 
   .contact-content {
-    max-width: 600px;
+    width: 600px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     background-color: var(--black);
@@ -52,6 +57,31 @@
         &:hover {
           filter: brightness(90%);
         }
+      }
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+
+      p, a {
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        font-size: 16px;
+        gap: 10px;
+        text-decoration: none;
+
+        svg {
+          color: var(--green);
+          font-size: 20px;
+        }
+      }
+
+      a:hover {
+        text-decoration: underline;
       }
     }
   }
