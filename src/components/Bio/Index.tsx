@@ -4,6 +4,7 @@ import "../../utils/i18n";
 import { useTranslation } from "react-i18next";
 import "./Styles.scss";
 import "react-toastify/dist/ReactToastify.css";
+import { FaDownload } from "react-icons/fa";
 
 export default function Bio() {
   const { t } = useTranslation();
@@ -27,6 +28,12 @@ export default function Bio() {
           wrapper="p"
           repeat={1}
         />
+      </div>
+      <div className="download-cv">
+        <a href="/cv-marcelo.pdf" download>
+          <FaDownload />
+          Download CV
+        </a>
       </div>
     </header>
   );
