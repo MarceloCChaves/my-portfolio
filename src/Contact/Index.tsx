@@ -1,6 +1,6 @@
 import "./Styles.scss";
 import { useTranslation } from "react-i18next";
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -10,7 +10,7 @@ export default function Contact() {
       <section className="contact-content">
         <h2>{t("contact.title")}</h2>
         <form
-          action="https://formsubmit.co/seuemail@dominio.com"
+          action="https://formsubmit.co/Marcelochavesdev@gmail.com"
           method="POST"
         >
           <input
@@ -57,6 +57,12 @@ export default function Contact() {
               github.com/MarceloCChaves
             </a>
           </p>
+        </div>
+        <div className="whatsapp-btn">
+          <a href="https://api.whatsapp.com/send?phone=+5591992727732&text=Olá! Vi seu portfólio na internet, achei seu trabalho interessante, poderiamos conversar?." target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp />
+            Entrar em contato
+          </a>
         </div>
       </section>
     </main>
