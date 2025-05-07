@@ -33,7 +33,6 @@ export default function Contact() {
 
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box" />
-          <input type="hidden" name="_next" value="https://seusite.com/obrigado" />
 
           <button type="submit">{t("contact.button")}</button>
         </form>
