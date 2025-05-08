@@ -9,6 +9,7 @@
   max-width: 100%;
   border-radius: 8px;
   margin-top: 70px;
+  box-shadow: 0 0 15px var(--purple);
 
   :where(strong, p){
     color: var(--white);
@@ -23,7 +24,7 @@
 
   a {
     color: var(--white);
-    background: var(--green);
+    background: var(--purple);
     padding: 10px 20px;
     text-decoration: none;
     margin-bottom: 20px;

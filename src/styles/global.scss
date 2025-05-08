@@ -6,16 +6,14 @@
 
 :root{
   --background: #202020;
-  --green: #41B883;
   --white: #fff;
   --black: #181818;
-  --blue: #1b48db;
-  --scroll: #6164FF;
-  --red: #ff2600c1;
+  --purple: #6164FF;
 }
 
 body {
   font-family: 'Nunito', sans-serif;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar {
@@ -27,6 +25,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--scroll);
+  background: var(--purple);
   border-radius: 10px;
 }
