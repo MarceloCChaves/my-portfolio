@@ -40,7 +40,8 @@
       "emailPlaceholder": "Your email",
       "messagePlaceholder": "Your message",
       "button": "Send",
-      "infoTitle": "Personal Info"
+      "infoTitle": "Personal Info",
+      "getInTouch": "Send Message"
     }
   }
 }

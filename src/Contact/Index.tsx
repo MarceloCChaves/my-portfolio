@@ -60,7 +60,7 @@ export default function Contact() {
         <div className="whatsapp-btn">
           <a href="https://api.whatsapp.com/send?phone=+5591992727732&text=Olá! Vi seu portfólio na internet, achei seu trabalho interessante, poderiamos conversar?." target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
-            Entrar em contato
+            {t("contact.getInTouch")}
           </a>
         </div>
       </section>
