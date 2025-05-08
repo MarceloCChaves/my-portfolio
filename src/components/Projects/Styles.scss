@@ -1,6 +1,4 @@
 .Projects {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding: 30px;
   background: var(--background);
@@ -9,6 +7,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
 
   h1 {
@@ -28,7 +27,6 @@
     background: var(--purple);
     padding: 10px 20px;
     text-decoration: none;
-    margin-top: 20px;
     border-radius: 8px;
   }
 }
