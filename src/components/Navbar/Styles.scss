@@ -14,9 +14,10 @@
   }
 
   .items {
-    display: flex;
-    gap: 20px;
-
+     ul {
+      display: flex;
+      gap: 20px;
+     }
     .box a {
       display: flex;
       align-items: center;
@@ -51,6 +52,10 @@
       gap: 20px;
       padding: 20px;
       display: none;
+
+      ul {
+        flex-direction: column;
+      }
 
       &.show {
         display: flex;

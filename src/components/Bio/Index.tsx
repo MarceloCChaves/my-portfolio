@@ -12,7 +12,7 @@ export default function Bio() {
     <header className="Bio">
       <div className="box">
         <div className="principal">
-          <img src={Eu} alt="Marcelo" />
+          <img src={Eu} alt="Marcelo" loading="lazy" />
         </div>
       </div>
       <div className="names">
